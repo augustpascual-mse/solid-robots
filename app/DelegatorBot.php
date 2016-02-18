@@ -20,11 +20,11 @@ class DelegatorBot
         $delegator->execute();
 
         $results = array();
-        while($row = $delegator->fetch(\PDO::FETCH_ASSOC)){
+        while ($row = $delegator->fetch(\PDO::FETCH_ASSOC)) {
             $results[] = $row;
         }
 
-        if(empty($results)){
+        if (empty($results)) {
             return false;
         }
 

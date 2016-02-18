@@ -18,5 +18,4 @@ interface Inquirer
     public function where($key, $value, $operator);
     public function whereAnd($key, $value, $operator);
     public function sort($key, $value);
-
 }

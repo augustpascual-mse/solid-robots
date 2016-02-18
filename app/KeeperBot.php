@@ -17,9 +17,9 @@ class KeeperBot
     public function getDbSettings()
     {
         $dbParam = array('dbHost' => '127.0.0.1',
-                         'dbName' => 'web3780',
-                         'dbUser' => 'root',
-                         'dbPassword' => 'root');
+                         'dbName' => 'database',
+                         'dbUser' => 'user',
+                         'dbPassword' => 'password');
 
         return $dbParam;
     }

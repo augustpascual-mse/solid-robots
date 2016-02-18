@@ -22,7 +22,6 @@ class InquirerMysqlBot implements Inquirer
         $this->query =  $this->query . $query;
 
         return $this;
-
     }
 
     public function whereAnd($key, $value, $operator = '=')
@@ -40,5 +39,4 @@ class InquirerMysqlBot implements Inquirer
 
         return $this;
     }
-
 }

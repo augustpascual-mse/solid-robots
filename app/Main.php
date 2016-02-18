@@ -44,7 +44,6 @@ function main()
     $resultsItems = $delegator->call($accessor, $inquirer);
 
     // Do your business logic here
-
 }
 
 main();
