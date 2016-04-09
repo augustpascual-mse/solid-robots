@@ -27,7 +27,7 @@ function main()
 {
     global $keeper, $accessor, $inquirer, $delegator;
 
-    // Set your table and columns here
+    //TODO Set your table and columns here
     $table = 'order_items';
     $columns = array('order_id',
                     'item_id',
@@ -43,7 +43,7 @@ function main()
     $inquirer->query($columns, $table)->sort('order_id', 'ASC');
     $resultsItems = $delegator->call($accessor, $inquirer);
 
-    // Do your business logic here
+    //TODO Do your business logic here
 }
 
 main();
